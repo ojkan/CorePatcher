@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       framework_jar_url:
-        description: 'URL to download framework.jar'
+        description: 'https://drive.google.com/file/d/1eMl2mX8LnPfGw9h9-Ppilyyd5xcrgRGc/view?usp=sharing'
         required: true
       services_jar_url:
-        description: 'URL to download services.jar'
+        description: 'https://drive.google.com/file/d/1SAbHRzo9CJbJwQ2yuj23Pvp0Kh8xei3f/view?usp=sharing'
         required: true
       android_api_level:
         description: 'Android API level'
